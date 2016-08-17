@@ -1,32 +1,65 @@
 #board {
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 }
 
 .card {
-	width: 40%;
-    height: 40%;
-    margin: 5%;
+	width: 80px;
+    height: 80px;
+    margin: 2%;
     display: block;
     position: relative;
     float: left;
 }
 
 .initial {
-	background: black;
+	background-color: black;
 }
 
 .initial:hover {
-	background: gray;
+	background-color: gray;
 	color: gray;
 }
 
-.flipped {
+.matched {
+	color: white;
 	background: white;
 }
 
-.matched {
-	color: red;
-	background: red;
+#orange.flipped {
+	background-color: orange;
 }
+
+#pink.flipped {
+	background-color: pink;
+}
+
+#red.flipped {
+	background-color: red;
+}
+
+#purple.flipped {
+	background-color: purple;
+}
+
+#blue.flipped {
+	background-color: blue;
+}
+
+#green.flipped {
+	background-color: green;
+}
+
+#brown.flipped {
+	background-color: brown;
+}
+
+#yellow.flipped {
+	background-color: yellow;
+}
+
+
+
+
+
 
